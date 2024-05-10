@@ -38,5 +38,8 @@ int push(int value)
 
 void pop()
 {
+	if (isEmpty())
+	{
 
+	}
 }
