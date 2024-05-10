@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 class Node 
@@ -27,10 +27,16 @@ public :
 
 int push(int value)
 {
+
 	Node* newNode = new Node();
 	newNode->data = value;
 	newNode->data = top;
 	top = newNode;
 	cout << "Push value: " << value << endl;
 	return value;
+}
+
+void pop()
+{
+
 }
